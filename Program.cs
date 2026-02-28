@@ -1,9 +1,11 @@
 ﻿// Mostrar un cuadrado de 5x5 con números 1.
-for (int fila = 1; fila <=5; fila++)
+int tamaño = 5;
+
+for (int i = 0; i < tamaño; i++)
 {
-    for (int columna =1; columna <=5; columna++)
+    for (int j = 0; j < tamaño; j++)
     {
-        Console.WriteLine("1");
+        Console.Write("1 ");
     }
     Console.WriteLine();
 }
